@@ -1,0 +1,4 @@
+## Twint
+原本撈取Twitter上的資料主要是使用Tweepy。使用Tweepy的主要優點是它使用官方的Twitter API。這比下載推文提供了更多的功能。可以發佈推文，阻止人員，發送DM和編寫腳本，以自動轉發或關注您的人。Tweepy最大的限制還在於它使用官方的Twitter API。該API限制了可以下載的數據量，並且使用免費帳戶只能在過去7天內下載幾千條推文
+
+Twint是一個更年輕的庫(library)，文檔有點少。它不使用官方的Twitter API來獲取數據，而是從公共網頁位址(public webpage addresses)中抓取Twitter。它的性能似乎接近Tweepy，下載數據時沒有太大的速度差異。但不會像使用官方API那樣快，但它不使用API的最大優點是，您可以有效地下載推文，只要你想，沒有任何速率限制。
